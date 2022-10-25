@@ -139,8 +139,8 @@ html {
     color: black;   
 }
 
-.a {
-
+.bigimg {
+    width: 100%;
 }
 
 #smallprojects {
@@ -226,8 +226,8 @@ html {
     margin: 112px;
 }
 
-.a {
-    height: 581px;
+.bigimg {
+    width: 100%;
 }
 
 #ContactMe ul {
