@@ -6,6 +6,7 @@
 html {
     scroll-behavior: smooth;
 }
+/*This section coresponds to the navigation bar at the top of the page with the links that direct you on the webpage. */
 .navbar {
     display:flex;
     justify-content: center;
@@ -40,6 +41,7 @@ html {
     cursor: crosshair;
 }
 
+/*This section coresponds to the background and main greeting of the webpage. Describes the background image along with the text and button to to reach out */
  #home {
     display: flex;
     font-size: 25px;
@@ -58,7 +60,7 @@ html {
     top: 0;
     right: 0;
     background: url('david.lake.img.PNG') no-repeat center center/cover;
-    height: 800px;
+    height: 877px;
     width: 100%;
     z-index: -1;
     opacity: .8;
@@ -81,7 +83,7 @@ html {
 
  .btn {
     padding: 10px 40px;
-    font-size: 25px;
+    font-size: 20px;
     background-color:transparent;
     border: 3px solid white;
     color: black;
@@ -96,7 +98,7 @@ html {
     box-shadow: 0 0 5px black, 0 0 10px white, 0 0 15px white;
     font-weight: bold;
  }
-
+ /*This section is relating to the about me section that contains a photo along with a brief description */
 #aboutme {
     display: center;
     flex-direction: column;
@@ -127,7 +129,7 @@ html {
     font-size: 2rem;
     margin-bottom: 20px;
 }
-
+/*This section contains the projects along with 4 images, one bigger than the other 3. */
 #Projects {
     display: flex;
     flex-direction: column;
@@ -163,7 +165,7 @@ html {
     height:200px;
     margin: 10px;
 }
-
+/*This section is the contact me section. */
 #ContactMe {
     display:flex;
     flex-direction: column;
@@ -194,13 +196,13 @@ html {
     padding: 10px 25px;
     font-weight: bold;
 }
-
+/*This is the media queries section that will change how the webpage looks when formated to different screens. */
 @media (max-width: 390px ), (max-height:800px) {
 
     #home::before {
     position: absolute;
-    height: 771px;
-    width: 391px;
+    height: 100%;
+    width: 100%;
 }
 
 .btn {
