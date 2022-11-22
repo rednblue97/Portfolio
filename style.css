@@ -59,7 +59,7 @@ html {
     position: absolute;
     top: 0;
     right: 0;
-    background: url('david.lake.img.PNG') no-repeat center center/cover;
+    background: url('assets/david.lake.img.PNG') no-repeat center center/cover;
     height: 877px;
     width: 100%;
     z-index: -1;
