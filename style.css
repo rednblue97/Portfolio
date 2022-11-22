@@ -145,6 +145,10 @@ html {
     width: 100%;
 }
 
+.heading {
+    font-size: 3rem;
+}
+ 
 #smallprojects {
     display: flex;
     flex-direction: column;
